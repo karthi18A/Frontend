@@ -1,0 +1,19 @@
+a:active{
+    color: black;
+}
+
+a:visited{
+    color: red;
+}
+
+a:link{
+    color: teal;
+}
+
+h1:hover{
+    color: yellow;
+}
+
+input:focus{
+    caret-color: red;
+}

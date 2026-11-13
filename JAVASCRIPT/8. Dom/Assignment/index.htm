@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events Assignment</title>
+    <style>
+        body {
+            text-align: center; 
+            padding: 20px;
+        }
+        p {
+            text-align: justify;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>DOM Events</h2>
+
+    <button onclick="dark()">Dark (Click Me)</button>
+    <button ondblclick="light()">Light (Double Click Me)</button>
+
+    <br><br>
+
+    <input id="ip1" onblur="bl()" onfocus="fo(this)" onkeyup="light()" onkeydown="dark()" type="text" placeholder="Type Here">
+
+    <br><br>
+
+    <button onmouseover="dark()" onmouseout="light()">Hover Over Me (Toggle)</button>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem vel blanditiis, consequatur aliquam voluptatum deleniti officia id obcaecati rerum perspiciatis commodi placeat illum cupiditate quam eius ex, hic repellat?
+    Rem hic perspiciatis nostrum nobis ex officiis assumenda vero in reiciendis nisi culpa provident obcaecati dolorem nulla quis, ea, at neque cum optio harum! At velit nostrum non rem esse!
+    Tenetur impedit est placeat reprehenderit fuga incidunt repellendus mollitia aperiam ex sint rerum, excepturi quis eligendi molestias dolore quo voluptatem omnis, soluta amet. Ipsa repellat mollitia nisi, quo quasi id.
+    Maiores sapiente aperiam esse, quaerat non obcaecati ipsam tempora earum adipisci recusandae excepturi molestiae iste beatae culpa cumque aspernatur, quod minus praesentium autem placeat similique ipsa labore assumenda! Nihil, autem.
+    Sint, tenetur debitis. Perferendis error veniam minus eum nisi aspernatur impedit porro, odio id adipisci quibusdam laborum sit debitis sunt voluptates autem libero laboriosam qui repudiandae quia. Officiis, eius culpa.</p>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>

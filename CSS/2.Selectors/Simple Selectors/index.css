@@ -1,0 +1,24 @@
+/* Element selector */
+h1 {
+    color: crimson;
+}
+
+/* ID selector */
+#h11 {
+    background-color: black;
+}
+
+/* Class selector */
+.karthik {
+    text-align: center;
+}
+
+/* Universal selector */
+* {
+    background-color: teal;
+}
+
+/* Grouping selector */
+#h41, .pc1, section {
+    font-size: 30px;
+}

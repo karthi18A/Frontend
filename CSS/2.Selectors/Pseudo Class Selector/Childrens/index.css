@@ -1,0 +1,30 @@
+section p:first-child{
+    color: orange;
+}
+
+
+section p:last-of-type{
+    color: blue;
+}
+
+
+section p:first-of-type{
+    color: teal;
+}
+
+
+section p:nth-last-of-type(2){
+    color: yellowgreen;
+}
+
+li:first-child{
+    background: red;
+}
+
+li:last-child{
+    background: skyblue;
+}
+
+li:nth-child(3){
+    background: grey;
+}

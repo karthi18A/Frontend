@@ -1,0 +1,21 @@
+p::first-line{
+    color: crimson;
+}
+
+p::first-letter{
+    font-size: 100px;
+}
+
+
+p::after{
+    content: "😄";
+}
+
+
+p::before{
+    content: "🥶";
+}
+
+li::marker{
+    content: "🤣";
+}

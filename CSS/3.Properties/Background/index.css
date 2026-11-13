@@ -1,0 +1,27 @@
+/*section{
+    height: 100vh;
+    width: 100vw;
+    background: red;
+}*/
+
+/* section{
+    height: 100vh;
+    width: 100 vw;
+    background:linear-gradient(45deg,green,orange,purple,skyblue);
+} */
+
+/* section{
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle,orange,white,red,purple,lightblue,teal)
+} */
+
+section{
+    height: 100vh;
+    width: 100%;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/a/a4/Mysore_Palace_Morning.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

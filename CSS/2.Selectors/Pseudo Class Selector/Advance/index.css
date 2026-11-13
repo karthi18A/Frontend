@@ -1,0 +1,21 @@
+:is(h1,h2){
+    font-size: 20px;
+}
+
+:where(h1,h2){
+    background: orangered;
+}
+
+.card:has(p){
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+button:not(:disabled){
+    background: orange;
+}
+
+button:disabled{
+    background: teal;
+}

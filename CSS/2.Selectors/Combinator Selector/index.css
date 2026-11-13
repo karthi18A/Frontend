@@ -1,0 +1,15 @@
+section p{
+    background-color: red;
+}
+
+section > p{
+    background-color: white;
+}
+
+section + p{
+    background-color: blue;
+}
+
+section ~ p{
+    background-color: chartreuse;
+}
